@@ -1,16 +1,18 @@
 
-# FrontEndCodes
+# JavaScriptCodes
 Codes in HTML, CSS, JavaScript
 
 
 
-<h1 align="center"> My first steps in FrontEnd </h1>
+<h1 align="center"> My first steps in JavaScript </h1>
 
 
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
+
+#jsin
 
 # Description
 
