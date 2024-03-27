@@ -1,0 +1,1 @@
+alert('Alerta Aberto porque vc Clicou');

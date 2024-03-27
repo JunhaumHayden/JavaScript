@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Oswald;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-top: 50px;
+    background-color: rgb(210, 210, 210);
+    text-shadow: 1px 1px #fff;
+}   
+
+fieldset {
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(110 110 110);
+    background-color: aquamarine;
+}
+
+.btn {
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto; margin; /*  com o parametro auto fica acima do definido */
+    margin-top: 20px;
+    display: block; /* necessário pq o button é um elemento inline */
+    /* elementos inline não aceitam paramentros auto. pois ocupam o espaço necessario para renderizar. Elementos inblock usam a largura da tabela */
+}
+
+.lamp{
+    margin-top: 20px;
+    background-color:cornsilk;
+}
+
+p {
+    border: 1px solid #00000000;
+    width: 60%;
+    padding: 40px;
+    margin: 30px auto;
+    background-color: rgba(255, 225, 224, 0.505);   
+}
+
+p.mostra {
+    display: block;
+}
+
+p.naoNumero {
+    display: block;
+    background-color: red;
+}
