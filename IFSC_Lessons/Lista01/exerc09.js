@@ -11,6 +11,7 @@ function converteTemp()
     console.log(tempF);
     mumero = parseFloat(tempF);
     console.log(numero);
+    console.log('----------------teste-------------------');
 
 
     if(isNaN(numero))

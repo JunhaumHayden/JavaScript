@@ -1,5 +1,6 @@
 function calcularArea()
 {
+    console.log('----------------teste-------------------');
     let objCaixa = document.getElementById('raio'); //criando o objeto que representa a caixa dentro do javascript
     let raio    = objCaixa.value; //Usando o metodo .value da instancia criada em objCaixa para capturar o valor digitado dentro da caixa no HTML
     //console.log(tempF);

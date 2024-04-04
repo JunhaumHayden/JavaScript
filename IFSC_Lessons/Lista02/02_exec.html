@@ -1,0 +1,82 @@
+<!-- Crie um documento HTML com um cabeçalho <h1> e um paragrafo <p>. Em seguida, elabore um script em JavaScript que acrescente texto a estes elementos -->
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+        <link rel="stylesheet" href="02_exerc.css">
+        <link rel="shortcut icon" type="imagex/png" href="../icons/icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200;1,400&family=Red+Hat+Display:wght@400;500;700&family=Roboto&display=swap"
+    rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <h1 id="idcabelho">  JavaScript Avançado- Lista02 - Exercicio 02</h1> 
+        <form>
+            <fieldset>
+                <legend> Conversao de temperatura com JavaScript</legend>
+                <label class = 'alinha'> Forneca a temperatura em F:   </label>
+                <input type = 'number' step="0.1" id="tempF", autofocus> <br>
+                <!-- <button class="btn" onclick="converteTemp();"> Converter agora </button> -->
+                <button type='button' id="botao"> --Converter agora-- </button>
+                
+            </fieldset>
+            
+        </form>
+    
+        <!-- //parametro hidden esconde qualquer tag -->
+        <p hidden id="container" onclick="esconderParag(this);"></p>
+        <!-- <p id="container"> teste</p> -->
+
+
+        <script src="02_exerc.js"></script>
+
+        <!-- <fieldset class="lamp">
+
+            <button class="btn" onclick="converteTemp();"> Converter agora </button> 
+            <button onclick="document.getElementById('myImage').src='../icons/pic_bulbon.gif'">Turn on the light</button>
+
+            <img id="myImage" src="../icons/pic_bulboff.gif" style="width:100px">
+
+            <button onclick="document.getElementById('myImage').src='../icons/pic_bulboff.gif'">Turn off the light</button>
+        </fieldset> -->
+    </body>
+
+    <footer>
+        <table>
+            <tr> 
+                <td>
+                    <div class="logo">
+                        <img src="../icons/icon36x36.ico" width="30" alt="Logo">
+                    </div>    
+                </td> 
+                <td>
+                    <div class="info">
+                        <div>&copy; 2023 HTML / CSS / JavaScript</div>
+                        <div>Desenvolvido por: Carlos Hayden Junior</div>
+                    </div>
+                </td> 
+                <td>
+                    <div class="icons">
+                        <img src="../icons/icon-html5-48.png" width="20" alt="HTML Icon">
+                    </div>
+                </td> 
+                <td>
+                    <div class="icons">
+                        <img src="../icons/icon-css3-48.ico" width="20" alt="CSS Icon">
+                    </div>
+                </td> 
+                <td>
+                    <div class="icons">
+                        <img src="../icons/icons8-js-48.png" width="20" alt="JS Icon">
+                    </div>
+                </td> 
+            </tr>
+        </table>
+    </footer> 
+    
+    </html>
